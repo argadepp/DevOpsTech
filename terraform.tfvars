@@ -1,16 +1,16 @@
-access_key = "${accesskey}"
-secreate_key = "${secretkey}"
-instanceType = ["${instType}"]
-vpc_id     = "${vpcid}"
-subnet_ids = ["${subnetIds}"]
+access_key = "${params.accesskey}"
+secreate_key = "${params.secretkey}"
+instanceType = ["${params.instType}"]
+vpc_id     = "${params.vpcid}"
+subnet_ids = ["${params.subnetIds}"]
 region = "ap-south-1"
-capacityType = "${capacityType}"
-product = "${product}"
-environment = "${env}"
+capacityType = "${params.capacityType}"
+product = "${params.product}"
+environment = "${params.env}"
 
-cluster_version = "${clusterVersion}"
+cluster_version = "${params.clusterVersion}"
 
-max_size = "${maxsize}"
-min_size = "${minsize}"
-desired_size = "${desiredsize}"
-max_unavailable = "${maxunvsize}"
+max_size = "${params.maxsize}"
+min_size = "${params.minsize}"
+desired_size = "${params.desiredsize}"
+max_unavailable = "${params.maxunvsize}"
