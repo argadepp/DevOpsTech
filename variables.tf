@@ -29,7 +29,7 @@ variable "access_key" {
   type = string
 }
 
-variable "secreate_key" {
+variable "secret_key" {
   type = string
 }
 
